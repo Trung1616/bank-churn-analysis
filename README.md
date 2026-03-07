@@ -162,23 +162,6 @@ Libraries used:
 
 ---
 
-## Project Structure
-
-```
-Bank-Churn-Analysis
-│
-├── data
-│   └── dataset.csv
-│
-├── notebooks
-│   └── churn_analysis.ipynb
-│
-├── images
-│   └── visualizations
-│
-└── README.md
-```
-
 ---
 
 ## How to Run
