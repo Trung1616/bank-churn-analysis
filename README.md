@@ -200,8 +200,3 @@ This analysis enables banks to:
 Predictive analytics can significantly improve long-term customer retention.
 
 ---
-
-## Author
-
-Nguyen Trung  
-Aspiring Data Analyst
