@@ -78,7 +78,6 @@ EDA was conducted to understand data distribution and customer characteristics.
 Key analysis included:
 - Distribution analysis of continuous variables
 - Categorical variable analysis
-- Outlier detection
 - Customer segmentation patterns
 
 Visualization techniques used:
