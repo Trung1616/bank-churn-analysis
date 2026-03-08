@@ -62,7 +62,7 @@ The insights derived from this analysis can help banks design more effective **c
 ## Project Workflow
 
 ### 1. Data Cleaning
-- Removed identifier variables (`CustomerId`, `Surname`)
+- Removed identifier variables (`Id`,`CustomerId`, `Surname`)
 - Checked and removed duplicate records
 - Verified dataset consistency
 
