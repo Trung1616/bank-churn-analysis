@@ -163,31 +163,6 @@ Libraries used:
 ---
 
 ---
-
-## How to Run
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/bank-churn-analysis.git
-```
-
-Install required packages:
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the notebook:
-
-```
-jupyter notebook
-```
-
-Open the notebook and execute the cells.
-
----
-
 ## Business Value
 
 This analysis enables banks to:
