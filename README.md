@@ -11,24 +11,52 @@ The project integrates **data analysis, statistical testing, machine learning mo
 
 ## Dataset
 
-The dataset contains **165K+ customer records** with demographic, financial, and behavioral attributes.
+## Dataset Description
 
-### Features
+This dataset contains **165,034 customer records** from a banking institution.  
+Each record represents a customer along with demographic information, financial status, and banking activity.  
+The dataset is used to analyze customer behavior and predict whether a customer is likely to leave the bank.
+
+### Dataset Size
+
+| Property | Value |
+|--------|--------|
+| Number of records | 165,034 |
+| Number of features | 14 |
+| Target variable | Exited |
+
+---
+
+## Feature Description
 
 | Feature | Description |
-|------|------|
-| CreditScore | Customer credit score |
-| Geography | Customer country |
-| Gender | Customer gender |
-| Age | Customer age |
-| Tenure | Years with the bank |
-| Balance | Customer account balance |
-| NumOfProducts | Number of bank products used |
-| HasCrCard | Whether customer has a credit card |
-| IsActiveMember | Whether customer is an active member |
-| EstimatedSalary | Estimated annual salary |
-| Exited | Target variable (1 = churn, 0 = retained) |
+|-------|-------------|
+| id | Sequential identifier assigned to each row in the dataset. |
+| CustomerId | Unique identifier for each customer. |
+| Surname | Customer's last name. |
+| CreditScore | Credit score representing the customer's creditworthiness. |
+| Geography | Customer's geographic location (country or region). |
+| Gender | Gender of the customer. |
+| Age | Age of the customer. |
+| Tenure | Number of years the customer has been with the bank. |
+| Balance | Account balance of the customer. |
+| NumOfProducts | Number of banking products used by the customer. |
+| HasCrCard | Indicates whether the customer owns a credit card (1 = Yes, 0 = No). |
+| IsActiveMember | Indicates whether the customer is an active member (1 = Yes, 0 = No). |
+| EstimatedSalary | Estimated annual salary of the customer. |
+| Exited | Target variable indicating customer churn (1 = Churn, 0 = Retained). |
 
+---
+
+## Usage
+
+This dataset can be used for several analytical tasks, including:
+
+- **Exploratory Data Analysis (EDA)** to understand customer behavior patterns.
+- **Statistical analysis** to identify significant factors related to customer churn.
+- **Machine learning modeling** to predict whether a customer will leave the bank.
+
+The insights derived from this analysis can help banks design more effective **customer retention strategies**.
 ---
 
 ## Project Workflow
