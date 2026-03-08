@@ -62,10 +62,14 @@ The insights derived from this analysis can help banks design more effective **c
 ## Project Workflow
 
 ### 1. Data Cleaning
-- Removed identifier variables (`Id`,`CustomerId`, `Surname`)
-- Checked and removed duplicate records
-- Verified dataset consistency
 
+Several preprocessing steps were applied to ensure data quality and prepare the dataset for analysis:
+
+- Removed identifier variables such as **Id**, **CustomerId** and **Surname** that do not contribute to predictive modeling.
+- Checked and removed **duplicate records**.
+- Performed **outlier detection and treatment** using the **Interquartile Range (IQR)** method to identify extreme values in numerical variables.
+- Applied **DBSCAN clustering** to detect potential anomalies in the dataset.
+- Verified the consistency of the dataset before proceeding to analysis and modeling.
 ---
 
 ### 2. Exploratory Data Analysis (EDA)
