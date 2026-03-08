@@ -3,7 +3,7 @@
 ## Overview
 Customer churn is a critical issue in the banking industry. Retaining existing customers is significantly more cost-effective than acquiring new ones.
 
-This project analyzes **165,000+ banking customer records** to identify the key behavioral and financial factors that contribute to customer churn and builds predictive models to detect customers at risk of leaving.
+This project analyzes **165,000+ banking customer records** was generated from a deep learning model trained on the Bank Customer Churn Prediction dataset to identify the key behavioral and financial factors that contribute to customer churn and builds predictive models to detect customers at risk of leaving.
 
 The project integrates **data analysis, statistical testing, machine learning models, and explainable AI techniques** to generate insights that support customer retention strategies.
 
