@@ -69,7 +69,6 @@ Several preprocessing steps were applied to ensure data quality and prepare the 
 - Checked and removed **duplicate records**.
 - Performed **outlier detection and treatment** using the **Interquartile Range (IQR)** method to identify extreme values in numerical variables.
 - Applied **DBSCAN clustering** to detect potential anomalies in the dataset.
-- Verified the consistency of the dataset before proceeding to analysis and modeling.
 ---
 
 ### 2. Exploratory Data Analysis (EDA)
